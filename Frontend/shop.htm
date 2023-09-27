@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .Center {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-top: -100px;
+            margin-left: -100px;
+        }
+        .inline {
+            display: inline
+        }
+    </style>
+    <body>
+        <h1>Laptop Customizer</h1>
+        <p id="Loading">Loading, this may take a few seconds...<p>
+
+        <div style="width: 100%;">
+            <div style="float: left; width: 33%;">
+                <h3 id="modelname0"></h3>
+                <h4>RAM:</h4>
+                <form id="ramform0">
+                    <div id="radioram0"></div>
+                </form>
+                <h4>Storage:</h4>
+                <form id="storageform0">
+                    <div id="radiostorage0"></div>
+                </form>
+                <br><button type="button" onclick="addToCart('0', 1)">Add to Cart</button>
+            </div>
+
+            <div style="float: left; width: 34%;">
+                <h3 id="modelname1"></h3>
+                <h4>RAM:</h4>
+                <form id="ramform1">
+                    <div id="radioram1"></div>
+                </form>
+                <h4>Storage:</h4>
+                <form id="storageform1">
+                    <div id="radiostorage1"></div>
+                </form>
+                <br><button type="button" onclick="addToCart('1', 2)">Add to Cart</button>
+            </div>
+            <div style="float: left; width: 33%;">
+                <h3 id="modelname2"></h3>
+                <h4>RAM:</h4>
+                <form id="ramform2">
+                    <div id="radioram2"></div>
+                </form>
+                <h4>Storage:</h4>
+                <form id="storageform2">
+                    <div id="radiostorage2"></div>
+                </form>
+                <br><button type="button" onclick="addToCart('2', 3)">Add to Cart</button>
+            </div>
+            <br style="clear: left;" />
+           </div>
+           <br>
+           <hr>
+            <h2>Cart</h2>
+            <div id="cart">
+            </div>
+            <div id="carttotal"></div>
+            </div>
+            <script src="inventory.js"></script>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div id="models">
+            <form id="choose1">
+                <select id="selectModel">
+                    <label>Model</label>
+                  <option>Select model</option>
+                </select>
+              </form>
+        </div>
+        <div id="RAM">
+            <form id="choose2">
+                <select id="selectRAM">
+                    <label>RAM</label>
+                  <option>Select RAM size</option>
+                </select>
+              </form>
+        </div>
+        <div id="models">
+            <form id="choose3">
+                <select id="selectStorage">
+                    <label>Storage</label>
+                  <option>Select storage size</option>
+              </form>
+        </div> -->
